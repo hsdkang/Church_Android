@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Church.church"
+    android:versionCode="16"
+    android:versionName="1.0.5">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.Church.church.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.Church.church.MenuActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name="com.Church.church.EventActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name="com.Church.church.NewsActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name="com.Church.church.IntroduceActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name="com.Church.church.RegisterActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name="com.Church.church.Gospel_01_01Activity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name="com.Church.church.Gospel_01_02Activity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name="com.Church.church.Gospel_01_03Activity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name="com.Church.church.Gospel_01_04Activity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name="com.Church.church.Gospel_02_01Activity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name="com.Church.church.Gospel_02_02Activity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name="com.Church.church.Gospel_03_01Activity"
+            android:exported="true">
+
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>
